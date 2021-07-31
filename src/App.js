@@ -5,6 +5,7 @@ import Skills from "./components/Skills";
 import Web from "./components/Web";
 import React from "react";
 import NavBar from "./components/NavBar";
+import Contact from "./components/Contact";
 
 function App() {
 	const projects = React.useRef(null);
@@ -25,6 +26,9 @@ function App() {
 			</div>
 			<div ref={projects}>
 				<Web />
+			</div>
+			<div>
+				<Contact/>
 			</div>
 		</div>
 	);
